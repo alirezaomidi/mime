@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Vazir', sans-serif;
+    direction: rtl;
+    height: 100%;
+}
+
+.mime {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    resize: vertical;
+    overflow: auto;
+}
+
+.mime h1,
+.mime h3,
+.mime h4,
+.mime h5,
+.mime h6,
+.mime p {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
